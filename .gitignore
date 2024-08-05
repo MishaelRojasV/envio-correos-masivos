@@ -1,0 +1,54 @@
+# Archivos y directorios generales
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.env
+media/*
+plantillas/*
+
+# Archivos y directorios de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+
+# Archivos de pruebas
+.coverage
+nosetests.xml
+test_*.xml
+*.cover
+*.log
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de build
+build/
+dist/
+*.egg-info/
+
+# Archivos de base de datos
+*.sqlite3
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+
+# Archivos adjuntos
+*.pdf
+*.jpeg
+*.jpg
+*.png
+
+# Configuración de PyCharm
+.idea/
+
+# Configuración de Jupyter
+.ipynb_checkpoints/
